@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import dynamic from 'next/dynamic';
 import { Inter , Roboto_Mono} from "next/font/google";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         </header>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );
