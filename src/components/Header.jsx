@@ -4,11 +4,11 @@ const Header = () => {
   const [showLinks, setShowLinks] = useState(false);
   
   return (
-    <header className="fixed top-0 left-0 pl-5 pr-12 w-full h-20 text-sm flex flex-row items-center bg-[#0B172D]">
+    <header className="shadow-md fixed top-0 left-0 pl-5 pr-12 w-full h-20 text-sm flex flex-row items-center bg-[#0B172D]">
       <button className="flex flex-row">
-          <text className="text-[#787878] text-lg font-thin">&lt;/</text>
+          <div className="text-[#787878] text-lg font-thin">&lt;/</div>
           <div className="origin-center text-[#64FFDA] text-lg font-thin">Jabir</div>
-          <text className="text-[#787878] tracking-wider text-lg font-thin flex flex-row"><div className="text-white">C</div>&gt;</text>
+          <div className="text-[#787878] tracking-wider text-lg font-thin flex flex-row"><div className="text-white">C</div>&gt;</div>
       </button>
       
       <nav className="w-full h-full">
