@@ -1,44 +1,25 @@
 
 export default function Home() {
     return (
-      <main className="flex min-h-screen  flex-col items-center justify-between p-24">
-  
-        <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-2 lg:text-left">
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className="mb-3 text-2xl font-semibold">
-              Docs{" "}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-            <p className="m-0 max-w-[30ch] text-sm md:opacity-50">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-  
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className="mb-3 text-2xl font-semibold">
-              Learn{" "}
-              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                -&gt;
-              </span>
-            </h2>
-            <p className="m-0 max-w-[30ch] text-sm md:opacity-50">
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-        </div>
-      </main>
+      <div className="flex min-h-screen flex-col items-center justify-center p-24 bg-gray-200 ">
+          <div className=" text-left space-y-6 md:mb-0 md:w-full md:max-w-5xl md:grid-cols-2  text-black">
+            <div className="" >
+              Hi, my name is
+            </div>
+            <div className="text-5xl font-heavy text-[#BB7E8C]">
+              Jabir Chowdhury.
+            </div>
+            <div className="text-5xl font-heavy">
+               
+            </div>
+            <div className="text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-thin"> 
+                Software Engineer
+            </div>
+            <div className="text-left"> 
+            I'm a software engineer with a passion for building things and solving problems. While I have experience in full-stack, my heart lies in backend development. Currently, I'm diving into the fascinating world of distributed systems.
+            </div>
+          </div>
+      </div>
     );
   }
   

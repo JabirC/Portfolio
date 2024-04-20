@@ -8,8 +8,8 @@ const Footer = () => {
 
   
   return (
-    <div className="md:fixed flex flex-col justify-center items-center space-y-6 md:space-y-0 pb-10 md:pb-0 bottom-0 left-0 w-full md:w-32 h-24 md:h-400">
-        <ul className="flex flex-row md:flex-col justify-center items-center space-x-8  md:space-x-0 md:space-y-10">
+    <div className="md:fixed flex flex-col justify-center items-center pt-10 space-y-6 md:space-y-4 pb-10 md:pb-0 bottom-0 left-0 w-full md:w-28 h-24 md:h-400">
+        <ul className="flex flex-row md:flex-col justify-center items-center space-x-8  md:space-x-0 md:space-y-8">
             <li className="flex flex-col md:flex-row justify-center items-center">
                 <a className="transition-transform transform hover:-translate-y-1" onMouseEnter={()=>setColorGitHub("#64FFDA")} onMouseLeave={()=>setColorGitHub('#CCD6F6')} href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="none" stroke={colorGitHub} strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5.75 14.25s-.5-2 .5-3c0 0-2 0-3.5-1.5s-1-4.5 0-5.5c-.5-1.5.5-2.5.5-2.5s1.5 0 2.5 1c1-.5 3.5-.5 4.5 0c1-1 2.5-1 2.5-1s1 1 .5 2.5c1 1 1.5 4 0 5.5s-3.5 1.5-3.5 1.5c1 1 .5 3 .5 3m-5-.5c-1.5.5-3-.5-3.5-1"></path>
@@ -23,7 +23,7 @@ const Footer = () => {
                  </a>
             </li>    
             <li className="hidden md:flex flex-col md:flex-row justify-center items-center">
-                <div className="w-0.5 h-80 border-[#a8b2d1] border-l "></div>
+                <div className="w-0.5 h-48 border-[#a8b2d1] border-l "></div>
             </li>
         </ul>
         <div className="md:hidden text-xs text-[#a8b2d1]">
