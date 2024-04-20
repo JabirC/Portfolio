@@ -6,7 +6,7 @@ export default function Home() {
           <div className="tracking-2xl text-[#64FFDA] font-lighter" >
             Hi, my name is
           </div>
-          <div className="leading-10 font-bold pt-6 text-[#ccd6f6] text-3xl md:text-6xl sm:text-4xl">
+          <div className="leading-10 font-bold pt-6 text-white text-3xl md:text-6xl sm:text-4xl">
             Jabir Chowdhury.
           </div>
           <div className="leading-10 font-bold pb-6 text-[#8892b0] text-3xl md:text-6xl sm:text-4xl">
