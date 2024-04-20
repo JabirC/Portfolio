@@ -26,7 +26,7 @@ const Header = () => {
 
   
   return (
-    <header className={`fixed top-0 left-0 pl-6 pr-12 w-full h-16   text-sm flex flex-row items-center bg-[#0B172D] transition-all  ${isScrollingUp && !isAtTop? "duration-600 shadow-lg pt-1":""} ${isScrollingDown && !isAtTop? "duration-200 -translate-y-full":""} `} > 
+    <header className={`z-10 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0B172D] transition-all  ${isScrollingUp && !isAtTop? "duration-600 shadow-lg pt-1":""} ${isScrollingDown && !isAtTop? "duration-200 -translate-y-full":""} `} > 
       <button className="flex flex-row justify-center items-center w-28">
          {/* <img className="h-14 w-14" src={Image} alt="Example" /> */}
           <div className="text-[#787878] text-lg font-thin">&lt;/</div>

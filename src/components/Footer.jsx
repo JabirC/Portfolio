@@ -8,7 +8,7 @@ const Footer = () => {
 
   
   return (
-    <div className="md:fixed flex flex-col justify-center items-center pt-10 space-y-6 md:space-y-4 pb-10 md:pb-0 bottom-0 left-0 w-full md:w-28 h-24 md:h-400">
+    <div className="z-1 md:fixed flex flex-col justify-center items-center pt-10 space-y-6 md:space-y-4 pb-10 md:pb-0 bottom-0 left-0 w-full md:w-20 lg:w-28 h-24 md:h-400">
         <ul className="flex flex-row md:flex-col justify-center items-center space-x-8  md:space-x-0 md:space-y-8">
             <li className="flex flex-col md:flex-row justify-center items-center">
                 <a className="transition-transform transform hover:-translate-y-1" onMouseEnter={()=>setColorGitHub("#64FFDA")} onMouseLeave={()=>setColorGitHub('#CCD6F6')} href="/">
