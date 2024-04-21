@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 
 const Footer = () => {
-  const [colorLinkedIn, setColorLinkedIn] = useState('#a8b2d1');
-  const [colorGitHub, setColorGitHub] = useState('#a8b2d1');
+  const [colorLinkedIn, setColorLinkedIn] = useState('#8892b0');
+  const [colorGitHub, setColorGitHub] = useState('#8892b0');
 
 
   
