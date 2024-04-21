@@ -26,7 +26,7 @@ const Header = () => {
 
   
   return (
-    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0B172D] transition-all  ${isScrollingUp && !isAtTop? "duration-600 shadow-lg pt-1":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
+    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0b172d] transition-all  ${isScrollingUp && !isAtTop? "duration-600 shadow-lg pt-1":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
       <button className="poppins-custom flex flex-row justify-center items-center w-28">
          {/* <img className="h-14 w-14" src={Image} alt="Example" /> */}
           <div className="text-[#787878] text-lg font-thin">&lt;/</div>
@@ -36,7 +36,7 @@ const Header = () => {
       
       <nav className="w-full h-full">
         <ol className="hidden md:flex flex-row justify-end items-center h-full font-light space-x-8">
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/"> <div className='pr-1 text-[#64FFDA]'>01.</div>  Home</a></li>
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="#home"> <div className='pr-1 text-[#64FFDA]'>01.</div>  Home</a></li>
           <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/experience"><div className='pr-1 text-[#64FFDA]'>02.</div> Experience</a></li>
           <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/work"> <div className='pr-1 text-[#64FFDA]'>03.</div> Work</a></li>
           <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/contact"> <div className='pr-1 text-[#64FFDA]'>04.</div> Contact</a></li>
