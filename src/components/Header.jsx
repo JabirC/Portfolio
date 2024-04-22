@@ -6,6 +6,7 @@ const Header = () => {
   const [isScrollingUp, setIsScrollingUp] = useState(false);
   const [isScrollingDown, setIsScrollingDown] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     let prevScrollPos = window.pageYOffset;
@@ -24,11 +25,42 @@ const Header = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const disableBodyScroll = () => {
+    document.body.style.overflow = 'hidden';
+  };
+  
+  const enableBodyScroll = () => {
+    document.body.style.overflow = '';
+  };
+
+  useEffect(() => {
+    if (showLinks && windowWidth < 768) {
+      disableBodyScroll(); // Disable scrolling when showLinks is true
+    } else {
+      enableBodyScroll(); // Enable scrolling when showLinks is false
+    }
+    // Cleanup function
+    return () => {
+      enableBodyScroll(); // Always enable scrolling when component unmounts
+    };
+  }, [showLinks, windowWidth])
+
   const scrollToTarget = (target) => {
     // Get the target element using its id
+    setShowLinks(false);
     const targetElement = document.getElementById(target);
-    console.log(targetElement);
-
     // Scroll to the target element
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
@@ -37,7 +69,8 @@ const Header = () => {
 
   
   return (
-    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0b172d] transition-all  ${isScrollingUp && !isAtTop? "duration-600 shadow-lg pt-1":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
+    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0b172d] transition-all  ${isScrollingUp && !isAtTop? "shadow-md":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
+      <div className={`${showLinks? "md:hidden z-4 fixed top-20 bottom-0 right-0 left-0 backdrop-blur-md bg-opacity-70":"hidden"}`}></div>
       <button className="poppins-custom flex flex-row justify-center items-center w-28">
          {/* <img className="h-14 w-14" src={Image} alt="Example" /> */}
           <div className="text-[#787878] text-lg font-thin">&lt;/</div>
@@ -101,7 +134,6 @@ const Header = () => {
 
         }
       </div>
-
     </header>
   );
 };
