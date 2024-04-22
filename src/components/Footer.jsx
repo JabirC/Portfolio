@@ -23,7 +23,7 @@ const Footer = () => {
                  </a>
             </li>    
             <li className="hidden md:flex flex-col md:flex-row justify-center items-center">
-                <div className="w-0.5 h-48 border-[#a8b2d1] border-l "></div>
+                <div className="w-0.5 h-80 border-[#a8b2d1] border-l "></div>
             </li>
         </ul>
         <div className="md:hidden text-xs text-[#8892b0]">
