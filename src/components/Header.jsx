@@ -69,7 +69,7 @@ const Header = () => {
 
   
   return (
-    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0b172d] transition-all  ${isScrollingUp && !isAtTop? "shadow-md":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
+    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0b172d] transition-all  ${isScrollingUp && !isAtTop? "shadow-lg":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
       <div className={`${showLinks? "md:hidden z-4 fixed top-20 bottom-0 right-0 left-0 backdrop-blur-md bg-opacity-70":"hidden"}`}></div>
       <button className="poppins-custom flex flex-row justify-center items-center w-28">
          {/* <img className="h-14 w-14" src={Image} alt="Example" /> */}

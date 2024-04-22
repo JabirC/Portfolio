@@ -20,21 +20,14 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #0b172d;
-  /* background: #9ba6ba; */
+  /* background: #363636; */
+  /* background: #1d2c45; */
 }
 
-/* .bg-color {
-  background: linear-gradient(to right, #0b172d, #020303);
-} */
 
 .line-height-custom {
   line-height: 1.2em; /* Numeric value */
   /* color: #bed2fc; */
 }
 
-/* @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
 
