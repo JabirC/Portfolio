@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="w-0.5 h-48 border-[#a8b2d1] border-l "></div>
             </li>
         </ul>
-        <div className="md:hidden text-xs text-[#a8b2d1]">
+        <div className="md:hidden text-xs text-[#8892b0]">
             Created with passion by Jabir Chowdhury
         </div>
         {/* <div className="md:hidden text-xs text-[#a8b2d1]">
