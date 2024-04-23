@@ -5,10 +5,18 @@ const Footer = () => {
   const [colorLinkedIn, setColorLinkedIn] = useState('#8892b0');
   const [colorGitHub, setColorGitHub] = useState('#8892b0');
 
-
+  const handleClick = (target) => {
+    if(target === "github"){
+        window.location.href = 'https://github.com/JabirC/Portfolio';
+    }
+    else {
+        window.location.href = 'https://brittanychiang.com/';
+    }
+  };
   
   return (
-    <div className="z-1 md:fixed flex flex-col justify-center items-center pt-10 space-y-6 md:space-y-4 pb-10 md:pb-0 bottom-0 left-0 w-full md:w-20 lg:w-24 xl:w-32 h-24 md:h-400">
+    <>
+    <div className="z-1 md:fixed flex flex-col justify-center items-center pt-10 space-y-6 md:space-y-4 md:pb-10 md:pb-0 bottom-0 left-0 w-full md:w-20 lg:w-24 xl:w-32 h-24 md:h-400">
         <ul className="flex flex-row md:flex-col justify-center items-center space-x-8  md:space-x-0 md:space-y-8">
             <li className="flex flex-col md:flex-row justify-center items-center">
                 <a className="transition-transform transform hover:-translate-y-1" onMouseEnter={()=>setColorGitHub("#64FFDA")} onMouseLeave={()=>setColorGitHub('#CCD6F6')} href="/">
@@ -26,13 +34,20 @@ const Footer = () => {
                 <div className="w-0.5 h-80 border-[#a8b2d1] border-l "></div>
             </li>
         </ul>
-        <div className="md:hidden text-xs text-[#8892b0]">
-            Created with passion by Jabir Chowdhury
-        </div>
+        {/* <div className="md:hidden text-xs text-[#8892b0] text-center">
+            Built with passion by Jabir Chowdhury
+        </div> */}
         {/* <div className="md:hidden text-xs text-[#a8b2d1]">
             ©2024
         </div> */}
     </div>
+    <div className="text-xs text-[#8892b0] text-center pb-4 hover:text-[#64FFDA]">
+            <button onClick={()=>handleClick("github")}>Built with passion by Jabir Chowdhury</button>
+    </div>
+    <div className="text-xs text-[#8892b0] text-center pb-4 hover:text-[#64FFDA]">
+            <button onClick={()=>handleClick("site")}>UI design by Britney Chiang</button>
+    </div>
+    </>
   );
 };
 
