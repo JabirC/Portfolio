@@ -74,29 +74,29 @@ const Header = () => {
       <button className="poppins-custom flex flex-row justify-center items-center w-28">
          {/* <img className="h-14 w-14" src={Image} alt="Example" /> */}
           <div className="text-[#787878] text-lg font-thin">&lt;/</div>
-          <div className="origin-center text-[#38BDF8] text-2xl font-heavy">J</div>
-          <div className="text-[#787878] tracking-wider text-2xl font-thin flex flex-row"><div className="text-[#64FFDA]">C</div>&gt;</div>
+          <div className="origin-center text-[#EDFFEC] text-2xl font-heavy">J</div>
+          <div className="text-[#787878] tracking-wider text-2xl font-thin flex flex-row"><div className="text-[#bed2fc]">C</div>&gt;</div>
       </button>
       
       <nav className="w-full h-full">
         <ol className="hidden md:flex flex-row justify-end items-center h-full font-light space-x-8">
-          <li><button className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' onClick={()=>scrollToTarget("home")}> <div className='pr-1 text-[#38BDF8]'>01.</div>  Home</button></li>
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/experience"><div className='pr-1 text-[#38BDF8]'>02.</div> Experience</a></li>
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/work"> <div className='pr-1 text-[#38BDF8]'>03.</div> Work</a></li>
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/contact"> <div className='pr-1 text-[#38BDF8]'>04.</div> Contact</a></li>
+          <li><button className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' onClick={()=>scrollToTarget("home")}> <div className='pr-1 text-[#EDFFEC]'>01.</div>  Home</button></li>
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' href="/experience"><div className='pr-1 text-[#EDFFEC]'>02.</div> Experience</a></li>
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' href="/work"> <div className='pr-1 text-[#EDFFEC]'>03.</div> Work</a></li>
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' href="/contact"> <div className='pr-1 text-[#EDFFEC]'>04.</div> Contact</a></li>
         </ol>
       </nav>
 
       <nav className={`transition-all duration-500 ${showLinks? "md:translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg bg-[#112240]" : "translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg bg-[#112240]"} ${isScrollingDown && !isAtTop? "duration-200":""}`}>
         <ol className="flex flex-col justify-center items-center h-full font-thin space-y-8">
-          <li><button className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' onClick={()=>scrollToTarget("home")}> <div className='text-[#38BDF8] text-xs'>01.</div>  Home</button></li>
-          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/experience"><div className='text-[#38BDF8] text-xs'>02.</div> Experience</a></li>
-          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/work"> <div className='text-[#38BDF8] text-xs'>03.</div> Work</a></li>
-          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64FFDA]' href="/contact"> <div className='text-[#38BDF8] text-xs'>04.</div> Contact</a></li>  
+          <li><button className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' onClick={()=>scrollToTarget("home")}> <div className='text-[#EDFFEC] text-xs'>01.</div>  Home</button></li>
+          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' href="/experience"><div className='text-[#EDFFEC] text-xs'>02.</div> Experience</a></li>
+          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' href="/work"> <div className='text-[#EDFFEC] text-xs'>03.</div> Work</a></li>
+          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#EDFFEC]' href="/contact"> <div className='text-[#EDFFEC] text-xs'>04.</div> Contact</a></li>  
           <br className="h-20"></br>
-          <div className="flex relative text-[#38BDF8]">
-            <button className="relative z-10 h-14 w-40 border border-[#38BDF8] bg-[#112240] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
-            <div className="absolute top-0  bg-[#64FFDA] w-40 h-14 z-1 rounded-sm"></div>
+          <div className="flex relative text-[#EDFFEC]">
+            <button className="relative z-10 h-14 w-40 border border-[#EDFFEC] bg-[#112240] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
+            <div className="absolute top-0  bg-[#EDFFEC] w-40 h-14 z-1 rounded-sm"></div>
           </div>
           <br className="h-20"></br>
           <br className="h-20"></br>
@@ -114,21 +114,21 @@ const Header = () => {
         </ol>
       </nav>
 
-      <div className="hidden md:flex relative pl-8 text-[#38BDF8]">
-        <button className="relative z-10 h-10 w-20 border border-[#38BDF8] bg-[#0B172D] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
-        <div className="absolute top-0  bg-[#64FFDA] w-20 h-10 z-1 rounded-sm"></div>
+      <div className="hidden md:flex relative pl-8 text-[#EDFFEC]">
+        <button className="relative z-10 h-10 w-20 border border-[#EDFFEC] bg-[#0B172D] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
+        <div className="absolute top-0  bg-[#EDFFEC] w-20 h-10 z-1 rounded-sm"></div>
       </div>
 
-      <div className="relative pl-8 text-[#38BDF8] md:hidden">
+      <div className="relative pl-8 text-[#EDFFEC] md:hidden">
         {showLinks? 
               <button onClick={() => setShowLinks(!showLinks)} className="transition-all duration-300 transform rotate-180 text-6xl font-thin">
                   &#x00d7;
               </button>:
               <button onClick={() => setShowLinks(!showLinks)} className="transition-all duration-300 transform scale-y-[1]">
                 <div className="flex flex-col justify-center items-end">
-                  <div className="w-10 h-0.5 bg-[#38BDF8] m-1"></div>
-                  <div className="w-8 h-0.5 bg-[#38BDF8] m-1"></div>
-                  <div className="w-6 h-0.5 bg-[#38BDF8] m-1"></div>
+                  <div className="w-10 h-0.5 bg-[#EDFFEC] m-1"></div>
+                  <div className="w-8 h-0.5 bg-[#EDFFEC] m-1"></div>
+                  <div className="w-6 h-0.5 bg-[#EDFFEC] m-1"></div>
                 </div>
              </button>
 
