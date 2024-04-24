@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function Work() {
     return (
-      <div className="flex min-h-screen flex-col items-center pt-0 p-12 sm:p-14">
+      <div className="flex min-h-screen flex-col items-center  pb-14 pr-14 pl-14">
 
             <div className=" w-full text-left  w-full md:max-w-6xl md:pl-10 flex flex-col items-center justify-center">
                 <div className="text-xl flex flex-row items-center justify-center space-x-2"> <div className="text-[#64ffda]">03.</div> 
