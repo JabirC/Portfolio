@@ -19,16 +19,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background: #0f1d38; */
-  /* background: #0b172d; */
   background: #0a192f;
-  /* background: #1d2c45; */
 }
 
 
 .line-height-custom {
-  line-height: 1.2em; /* Numeric value */
-  /* color: #bed2fc; */
+  line-height: 1.2em;
 }
 
 

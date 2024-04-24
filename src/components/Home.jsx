@@ -15,7 +15,7 @@ export default function Home() {
           {/* <div className="text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-thin"> 
               Software Engineer
           </div> */}
-          <div className="text-left pb-12 pt-4 text-[#8892b0] text-md max-w-screen-md"> 
+          <div className="text-left pb-12 text-[#8892b0] text-md max-w-screen-md"> 
           I'm a software engineer with a passion for building things and solving problems. While I have experience in full-stack, my heart lies in backend development. Currently, I'm diving into the fascinating world of distributed systems.
           </div>
           <div className="flex relative text-[#64ffda]">
