@@ -69,13 +69,13 @@ const Header = () => {
 
   
   return (
-    <header className={`z-20 fixed top-0 left-0 pl-6 pr-12 w-full h-20   text-sm flex flex-row items-center bg-[#0b172d] transition-all  ${isScrollingUp && !isAtTop? "shadow-lg":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
+    <header className={`z-20 fixed top-0 left-0 pl-6 pr-6 w-full h-20   text-sm flex flex-row items-center bg-[#0a192f] transition-all  ${isScrollingUp && !isAtTop? "shadow-lg":""} ${isScrollingDown && !isAtTop && !showLinks? "duration-200 -translate-y-full":""} `} > 
       <div className={`${showLinks? "md:hidden z-4 fixed top-20 bottom-0 right-0 left-0 backdrop-blur-md bg-opacity-70":"hidden"}`}></div>
-      <button className="poppins-custom flex flex-row justify-center items-center w-28">
+      <button className="poppins-custom flex flex-row justify-center items-center ">
          {/* <img className="h-14 w-14" src={Image} alt="Example" /> */}
           <div className="text-[#787878] text-lg font-thin">&lt;/</div>
-          <div className="origin-center text-[#64ffda] text-2xl font-heavy">J</div>
-          <div className="text-[#787878] tracking-wider text-2xl font-thin flex flex-row"><div className="text-[#bed2fc]">C</div>&gt;</div>
+          <div className="origin-center text-[#64ffda] text-2xl font-light">J</div>
+          <div className="text-[#787878] tracking-wider text-2xl font-thin flex flex-row"><div className="text-[#bed2fc] font-light">C</div>&gt;</div>
       </button>
       
       <nav className="w-full h-full">
@@ -87,7 +87,7 @@ const Header = () => {
         </ol>
       </nav>
 
-      <nav className={`transition-all duration-500 ${showLinks? "md:translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg bg-[#112240]" : "translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg bg-[#112240]"} ${isScrollingDown && !isAtTop? "duration-200":""}`}>
+      <nav className={`transition-all duration-500 ${showLinks? "md:translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg bg-[#0a192f]" : "translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg bg-[#0a192f]"} ${isScrollingDown && !isAtTop? "duration-200":""}`}>
         <ol className="flex flex-col justify-center items-center h-full font-thin space-y-8">
           <li><button className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("home")}> <div className='text-[#64ffda] text-xs'>01.</div>  Home</button></li>
           <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' href="/experience"><div className='text-[#64ffda] text-xs'>02.</div> Experience</a></li>
@@ -95,7 +95,7 @@ const Header = () => {
           <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' href="/contact"> <div className='text-[#64ffda] text-xs'>04.</div> Contact</a></li>  
           <br className="h-20"></br>
           <div className="flex relative text-[#64ffda]">
-            <button className="relative z-10 h-14 w-40 border border-[#64ffda] bg-[#112240] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
+            <button className="relative z-10 h-14 w-40 border border-[#64ffda] bg-[#0a192f] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
             <div className="absolute top-0  bg-[#64ffda] w-40 h-14 z-1 rounded-sm"></div>
           </div>
           <br className="h-20"></br>
@@ -115,7 +115,7 @@ const Header = () => {
       </nav>
 
       <div className="hidden md:flex relative pl-8 text-[#64ffda]">
-        <button className="relative z-10 h-10 w-20 border border-[#64ffda] bg-[#0B172D] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
+        <button className="relative z-10 h-10 w-20 border border-[#64ffda] bg-[#0a192f] rounded-sm transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
         <div className="absolute top-0  bg-[#64ffda] w-20 h-10 z-1 rounded-sm"></div>
       </div>
 

@@ -41,10 +41,10 @@ const Footer = () => {
             ©2024
         </div> */}
     </div>
-    <div className="text-xs text-[#8892b0] text-center pb-4 hover:text-[#64ffda]">
+    <div className=" text-xs text-[#8892b0] text-center pb-4 hover:text-[#64ffda]">
             <button onClick={()=>handleClick("github")}>Built with passion by Jabir Chowdhury</button>
     </div>
-    <div className="text-xs text-[#8892b0] text-center pb-4 hover:text-[#64ffda]">
+    <div className=" text-xs text-[#8892b0] text-center pb-4 hover:text-[#64ffda]">
             <button onClick={()=>handleClick("site")}>UI design by Britney Chiang</button>
     </div>
     </>
