@@ -6,7 +6,7 @@ export default function Experience() {
     
 
     return (
-      <div className="flex pb-48 flex-col items-center pl-6 pt-6 pr-6  sm:pl-14 sm:pt-14 sm:pr-14  md:pl-24">
+      <div id="experience" className="flex mb-48 flex-col items-center pl-6 pt-6 pr-6  sm:pl-14 sm:pt-14 sm:pr-14  md:pl-24">
 
             <div className=" w-full text-left md:w-full md:max-w-2xl">
                 <div className="text-xl flex flex-row items-center space-x-2"> <div className="text-[#64ffda]">02.</div> 
