@@ -9,8 +9,8 @@ export default function Work() {
                  <div className="poppins-custom text-xl md:text-2xl sm:text-2xl text-[#bed2fc] font-medium">  Projects</div>
                 </div>
 
-                <div className="poppins-custom flex w-full sm:flex-row flex-col sm:space-x-4 sm:space-y-0 space-y-4 pt-10"> 
-                    <div className="flex flex-col space-y-4 w-full">
+                <div className="poppins-custom flex w-full sm:flex-row flex-col sm:space-x-6 sm:space-y-0 space-y-4 pt-10"> 
+                    <div className="flex flex-col space-y-6 w-full">
 
                         <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://advent-chess.vercel.app', '_blank')}>
 
@@ -32,11 +32,11 @@ export default function Work() {
                                 A multiplayer networked Chess web application that seeks to redefine the strategic nature of the game by incorporating randomized intial start states.
                             </div>
                             <div className="flex-wrap absolute bottom-10 pl-6 pr-6 text-xs text-[#8892b0] font-normal flex flex-row items-start">
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Java</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Java</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
                             </div>
                         </div>
 
@@ -60,16 +60,16 @@ export default function Work() {
                                 A multiplayer networked Chess web application that seeks to redefine the strategic nature of the game by incorporating randomized intial start states.
                             </div>
                             <div className="flex-wrap absolute bottom-10 pl-6 pr-6 text-xs text-[#8892b0] font-normal flex flex-row items-start">
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Java</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Java</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
                             </div>
                         </div>
 
                     </div>
-                    <div className="flex flex-col space-y-4 w-full">
+                    <div className="flex flex-col space-y-6 w-full">
 
                         <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://advent-chess.vercel.app', '_blank')}>
 
@@ -91,11 +91,11 @@ export default function Work() {
                                 A multiplayer networked Chess web application that seeks to redefine the strategic nature of the game by incorporating randomized intial start states.
                             </div>
                             <div className="flex-wrap absolute bottom-10 pl-6 pr-6 text-xs text-[#8892b0] font-normal flex flex-row items-start">
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Java</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Java</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
                             </div>
                         </div>
 
@@ -119,11 +119,11 @@ export default function Work() {
                                 A multiplayer networked Chess web application that seeks to redefine the strategic nature of the game by incorporating randomized intial start states.
                             </div>
                             <div className="flex-wrap absolute bottom-10 pl-6 pr-6 text-xs text-[#8892b0] font-normal flex flex-row items-start">
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Java</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
-                                <div className="border p-1 border-[#64ffda] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Java</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Spring Boot</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">Angular</div>
+                                <div className="border p-1 border-[#3ca48c] text-[#64ffda] flex-shrink-0 m-1">JUnit</div>
                             </div>
                         </div>
 
