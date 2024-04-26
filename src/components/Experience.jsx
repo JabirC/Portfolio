@@ -9,7 +9,7 @@ export default function Experience() {
       <div id="experience" className="flex mb-48 flex-col items-center pl-6 pt-6 pr-6  sm:pl-14 sm:pt-14 sm:pr-14  md:pl-24">
 
             <div className=" w-full text-left md:w-full md:max-w-2xl">
-                <div className="text-xl flex flex-row items-center space-x-2"> <div className="text-[#64ffda]">02.</div> 
+                <div className="text-xl flex flex-row items-center space-x-2"> <div className="text-[#64ffda]">01.</div> 
                 <div className="poppins-custom text-xl md:text-2xl sm:text-2xl text-[#bed2fc] font-medium">  Where I've Worked</div>
             </div>
 
@@ -54,15 +54,15 @@ export default function Experience() {
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS</div>
+                                <div>Trained 4+ LLM models for code generation by developing prompts and solutions, achieving 95% completion rate</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router</div>
+                                <div>Evaluated code quality produced by LLM for correctness, performance, and helpfulness for 300+ tasks</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps</div>
+                                <div>Ensured high code quality in code reviews for 10+ engineers, making sure submissions followed style guidelines</div>
                             </li>
                         </ul>
                     </div>
@@ -75,15 +75,15 @@ export default function Experience() {
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS</div>
+                                <div>Selected for a full-stack JavaScript + AWS program as one of 50 fellows out of 700+ applicants</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router</div>
+                                <div>Built serverless APIs with at least 99.95% uptime using AWS Lambda and managed data with Dynamo DB</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps</div>
+                                <div>Leveraged knowledge: Git workflows, testing, CI/CD, agile development, MVC pattern, APIs/Microservices</div>
                             </li>
                         </ul>
                     </div>
@@ -97,15 +97,15 @@ export default function Experience() {
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS</div>
+                                <div>Built a Python program to identify intersections in geospatial data collected by 3 satellites with varying resolutions</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router</div>
+                                <div>Developed scripts to merge 2+ terabytes of intersected satellite data, facilitating ease of access for scientists</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps</div>
+                                <div>Optimized scripts to handle large data volumes through multithreading, achieving 80% decrease in processing time</div>
                             </li>
                         </ul>
                     </div>
@@ -119,15 +119,15 @@ export default function Experience() {
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS</div>
+                                <div>Created a microservice in Python for generating metadata for a data pipeline, enabling comprehensive data analysis</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router</div>
+                                <div>Integrated 3+ NLP microservices into the pipeline while maintaining 90% efficiency through multithreading</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps</div>
+                                <div>Optimized transfer of MongoDB data into a Neo4J database using indexing, improving query performance by 60%</div>
                             </li>
                         </ul>
                     </div>

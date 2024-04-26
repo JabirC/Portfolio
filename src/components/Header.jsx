@@ -80,19 +80,19 @@ const Header = () => {
       
       <nav className="w-full h-full">
         <ol className="hidden md:flex flex-row justify-end items-center h-full font-light space-x-8">
-          <li><button className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("home")}> <div className='pr-1 text-[#64ffda]'>01.</div>  Home</button></li>
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("experience")}><div className='pr-1 text-[#64ffda]'>02.</div> Experience</a></li>
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("work")}> <div className='pr-1 text-[#64ffda]'>03.</div> Work</a></li>
-          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("contact")}> <div className='pr-1 text-[#64ffda]'>04.</div> Contact</a></li>
+          {/* <li><button className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("home")}> <div className='pr-1 text-[#64ffda]'>01.</div>  Home</button></li> */}
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("experience")}><div className='pr-1 text-[#64ffda]'>01.</div> Experience</a></li>
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("work")}> <div className='pr-1 text-[#64ffda]'>02.</div> Work</a></li>
+          <li><a className='flex flex-row justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("contact")}> <div className='pr-1 text-[#64ffda]'>03.</div> Contact</a></li>
         </ol>
       </nav>
 
       <nav className={`bg-[#112240] transition-all duration-500 ${showLinks? "md:translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg" : "translate-x-full fixed top-0 right-0 bottom-0 w-3/4 text-lg"} ${isScrollingDown && !isAtTop? "duration-200":""}`}>
         <ol className="flex flex-col justify-center items-center h-full font-thin space-y-8">
-          <li><button className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("home")}> <div className='text-[#64ffda] text-xs'>01.</div>  Home</button></li>
-          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("experience")}><div className='text-[#64ffda] text-xs'>02.</div> Experience</a></li>
-          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("work")}> <div className='text-[#64ffda] text-xs'>03.</div> Work</a></li>
-          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("contact")}> <div className='text-[#64ffda] text-xs'>04.</div> Contact</a></li>  
+          {/* <li><button className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda]' onClick={()=>scrollToTarget("home")}> <div className='text-[#64ffda] text-xs'>01.</div>  Home</button></li> */}
+          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("experience")}><div className='text-[#64ffda] text-xs'>01.</div> Experience</a></li>
+          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("work")}> <div className='text-[#64ffda] text-xs'>02.</div> Work</a></li>
+          <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("contact")}> <div className='text-[#64ffda] text-xs'>03.</div> Contact</a></li>  
           <br className="h-20"></br>
           <div className="flex relative text-[#64ffda]">
             <button className="relative z-10 h-14 w-40 border border-[#64ffda] bg-[#112240] rounded-md transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
@@ -103,11 +103,11 @@ const Header = () => {
           <br className="h-20"></br>
           <div className='flex flex-row justify-end items-center space-x-8'>
             <button onClick={()=>window.open('https://github.com/JabirC', '_blank')}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"><path fill="none" stroke="#bdc5de" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M5.75 14.25s-.5-2 .5-3c0 0-2 0-3.5-1.5s-1-4.5 0-5.5c-.5-1.5.5-2.5.5-2.5s1.5 0 2.5 1c1-.5 3.5-.5 4.5 0c1-1 2.5-1 2.5-1s1 1 .5 2.5c1 1 1.5 4 0 5.5s-3.5 1.5-3.5 1.5c1 1 .5 3 .5 3m-5-.5c-1.5.5-3-.5-3.5-1"></path>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" fill="none" stroke="#bdc5de" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="feather feather-external-link hover:stroke-[#64ffda]"><path  d="M5.75 14.25s-.5-2 .5-3c0 0-2 0-3.5-1.5s-1-4.5 0-5.5c-.5-1.5.5-2.5.5-2.5s1.5 0 2.5 1c1-.5 3.5-.5 4.5 0c1-1 2.5-1 2.5-1s1 1 .5 2.5c1 1 1.5 4 0 5.5s-3.5 1.5-3.5 1.5c1 1 .5 3 .5 3m-5-.5c-1.5.5-3-.5-3.5-1"></path>
               </svg>
             </button>
             <button onClick={()=>window.open('https://www.linkedin.com/in/jabirc/', '_blank')}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#bdc5de" fillRule="evenodd" d="M9.429 8.969h3.714v1.85c.535-1.064 1.907-2.02 3.968-2.02c3.951 0 4.889 2.118 4.889 6.004V22h-4v-6.312c0-2.213-.535-3.461-1.897-3.461c-1.889 0-2.674 1.345-2.674 3.46V22h-4zM2.57 21.83h4V8.799h-4zM7.143 4.55a2.53 2.53 0 0 1-.753 1.802a2.573 2.573 0 0 1-1.82.748a2.59 2.59 0 0 1-1.818-.747A2.548 2.548 0 0 1 2 4.55c0-.677.27-1.325.753-1.803A2.583 2.583 0 0 1 4.571 2c.682 0 1.336.269 1.819.747c.482.478.753 1.126.753 1.803" clipRule="evenodd"></path>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#bdc5de" fillRule="evenodd"  clipRule="evenodd" className="feather feather-external-link hover:fill-[#64ffda]"><path d="M9.429 8.969h3.714v1.85c.535-1.064 1.907-2.02 3.968-2.02c3.951 0 4.889 2.118 4.889 6.004V22h-4v-6.312c0-2.213-.535-3.461-1.897-3.461c-1.889 0-2.674 1.345-2.674 3.46V22h-4zM2.57 21.83h4V8.799h-4zM7.143 4.55a2.53 2.53 0 0 1-.753 1.802a2.573 2.573 0 0 1-1.82.748a2.59 2.59 0 0 1-1.818-.747A2.548 2.548 0 0 1 2 4.55c0-.677.27-1.325.753-1.803A2.583 2.583 0 0 1 4.571 2c.682 0 1.336.269 1.819.747c.482.478.753 1.126.753 1.803" ></path>
               </svg>
             </button>
           </div>
