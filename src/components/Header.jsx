@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "./../assets/logo.png"
+import Pdf from '../assets/Jabir-Chowdhury-Resume.pdf';
 
 const Header = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -95,7 +95,7 @@ const Header = () => {
           <li><a className='flex flex-col justify-end items-center text-[#bdc5de] hover:text-[#64ffda] hover:cursor-pointer' onClick={()=>scrollToTarget("contact")}> <div className='text-[#64ffda] text-xs'>03.</div> Contact</a></li>  
           <br className="h-20"></br>
           <div className="flex relative text-[#64ffda]">
-            <button className="relative z-10 h-14 w-40 border border-[#64ffda] bg-[#112240] rounded-md transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
+            <button onClick={()=> window.open(Pdf, '_blank')} className="relative z-10 h-14 w-40 border border-[#64ffda] bg-[#112240] rounded-md transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
             <div className="absolute top-0  bg-[#64ffda] w-40 h-14 z-1 rounded-md"></div>
           </div>
           <br className="h-20"></br>
@@ -115,7 +115,7 @@ const Header = () => {
       </nav>
 
       <div className="hidden md:flex relative pl-8 text-[#64ffda]">
-        <button className="relative z-10 h-10 w-20 border border-[#64ffda] bg-[#0a192f] rounded-md transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
+        <button onClick={()=> window.open(Pdf, '_blank')} className="relative z-10 h-10 w-20 border border-[#64ffda] bg-[#0a192f] rounded-md transition-all duration-300 transition-transform transform hover:-translate-y-0.5 hover:-translate-x-0.5">Resume</button>
         <div className="absolute top-0  bg-[#64ffda] w-20 h-10 z-1 rounded-md"></div>
       </div>
 

@@ -4,15 +4,6 @@ import React, { useState } from "react";
 const Footer = () => {
   const [colorLinkedIn, setColorLinkedIn] = useState('#8892b0');
   const [colorGitHub, setColorGitHub] = useState('#8892b0');
-
-  const handleClick = (target) => {
-    if(target === "github"){
-        window.location.href = 'https://github.com/JabirC/Portfolio';
-    }
-    else {
-        window.location.href = 'https://brittanychiang.com/';
-    }
-  };
   
   return (
     <>
@@ -41,11 +32,11 @@ const Footer = () => {
             ©2024
         </div> */}
     </div>
-    <div className=" text-xs text-[#8892b0] text-center pb-4 hover:text-[#64ffda]">
-            <button onClick={()=>handleClick("github")}>Built with passion by Jabir Chowdhury</button>
+    <div className=" text-xs text-[#8892b0] text-center pb-4">
+            <button onClick={()=> window.open('https://github.com/JabirC/Portfolio', '_blank')} className="hover:text-[#64ffda]">Built with passion by Jabir Chowdhury</button>
     </div>
-    <div className=" text-xs text-[#8892b0] text-center pb-4 hover:text-[#64ffda]">
-            <button onClick={()=>handleClick("site")}>UI design by Britney Chiang</button>
+    <div className=" text-xs text-[#8892b0] text-center pb-4">
+            <button onClick={()=> window.open('https://brittanychiang.com/', '_blank')} className="hover:text-[#64ffda]">UI design by Britney Chiang</button>
     </div>
     </>
   );
