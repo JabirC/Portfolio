@@ -35,9 +35,9 @@ const Footer = () => {
     <div className=" text-xs text-[#8892b0] text-center pb-4">
             <button onClick={()=> window.open('https://github.com/JabirC/Portfolio', '_blank')} className="hover:text-[#64ffda]">Built with passion by Jabir Chowdhury</button>
     </div>
-    <div className=" text-xs text-[#8892b0] text-center pb-4">
+    {/* <div className=" text-xs text-[#8892b0] text-center pb-4">
             <button onClick={()=> window.open('https://brittanychiang.com/', '_blank')} className="hover:text-[#64ffda]">UI design by Chiang</button>
-    </div>
+    </div> */}
     </>
   );
 };
