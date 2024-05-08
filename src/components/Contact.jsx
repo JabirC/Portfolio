@@ -11,7 +11,7 @@ export default function Contact() {
 
                 <div className="poppins-custom text-4xl md:text-5xl sm:text-5xl text-[#bed2fc] font-semibold mb-6">Get In Touch</div>
                 
-                <div className="line-height-custom-contact poppins-custom  text-[#8892b0] text-sm max-w-screen-md pl-6 pr-6 font-light tracking-widest mb-8"> 
+                <div className="line-height-custom-contact poppins-custom  text-[#8892b0] text-sm  pl-6 pr-6 font-light tracking-widest mb-8"> 
                 I am currently actively seeking new opportunities as a full-stack or backend software engineer. Feel free to reach out if you have any questions or just want to say hi!
                </div>
                <div className="flex relative text-[#64ffda] ">
