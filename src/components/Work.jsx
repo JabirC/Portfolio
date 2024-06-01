@@ -40,7 +40,7 @@ export default function Work() {
                             </div>
                         </div>
 
-                        <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://advent-chess.vercel.app', '_blank')}>
+                        <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://github.com/JabirC/MealMap', '_blank')}>
 
                             <div className="absolute top-8 right-6"> 
                                 <button className="h-6 w-6" onClick={()=>window.open('https://github.com/JabirC/MealMap', '_blank')}>
@@ -70,7 +70,7 @@ export default function Work() {
                     </div>
                     <div className="flex flex-col space-y-6 w-full">
 
-                        <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://advent-chess.vercel.app', '_blank')}>
+                        <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://github.com/JabirC/Sojourn', '_blank')}>
 
                             <div className="absolute top-8 right-6"> 
                                 <button className="h-6 w-6" onClick={()=>window.open('https://github.com/JabirC/Sojourn', '_blank')}>
@@ -99,7 +99,7 @@ export default function Work() {
                         </div>
 
 
-                        <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://advent-chess.vercel.app', '_blank')}>
+                        <div className="h-96 lg:h-80 w-full bg-[#112240] rounded-md shadow-lg transition-transform transform hover:-translate-y-2 hover:cursor-pointer" onClick={()=>window.open('https://github.com/JabirC', '_blank')}>
 
                             {/* <div className="absolute top-8 right-14"> 
                                 <button className="h-6 w-6" onClick={()=>window.open('https://github.com/JabirC/AdventChess', '_blank')}>
