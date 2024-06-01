@@ -24,17 +24,17 @@ export default function Experience() {
                             </button>
                         </li>
                         <li>
-                            <button onClick={()=>setCompany('Headstarter')} className="flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left w-36 h-10 hover:bg-[#112240] hover:text-[#64ffda]">
-                                <div className={`sm:w-0.5 sm:h-full  bg-[#1d2c45] ${company === "Headstarter"? "bg-[#64ffda]":""}`}> </div>
-                                <div className={`sm:pl-4 sm:pb-0 pt-2 sm:pt-0 ${company === "Headstarter"? "text-[#64ffda]":""}`}>Headstarter</div>
-                                <div className={`sm:hidden w-full h-0.5  bg-[#1d2c45] mt-3 ${company === "Headstarter"? "bg-[#64ffda]":""}`}> </div>
-                            </button>
-                        </li>
-                        <li>
                             <button onClick={()=>setCompany('NASA')} className="flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left md:w-36 w-24 h-10 hover:bg-[#112240] hover:text-[#64ffda]">
                                 <div className={`sm:w-0.5 sm:h-full  bg-[#1d2c45] ${company === "NASA"? "bg-[#64ffda]":""}`}> </div>
                                 <div className={`sm:pl-4 sm:pb-0 pt-2 sm:pt-0 ${company === "NASA"? "text-[#64ffda]":""}`}>NASA</div>
                                 <div className={`sm:hidden w-full h-0.5  bg-[#1d2c45] mt-3 ${company === "NASA"? "bg-[#64ffda]":""}`}> </div>
+                            </button>
+                        </li>
+                        <li>
+                            <button onClick={()=>setCompany('Headstarter')} className="flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left w-36 h-10 hover:bg-[#112240] hover:text-[#64ffda]">
+                                <div className={`sm:w-0.5 sm:h-full  bg-[#1d2c45] ${company === "Headstarter"? "bg-[#64ffda]":""}`}> </div>
+                                <div className={`sm:pl-4 sm:pb-0 pt-2 sm:pt-0 ${company === "Headstarter"? "text-[#64ffda]":""}`}>Headstarter</div>
+                                <div className={`sm:hidden w-full h-0.5  bg-[#1d2c45] mt-3 ${company === "Headstarter"? "bg-[#64ffda]":""}`}> </div>
                             </button>
                         </li>
                         <li>
@@ -54,15 +54,36 @@ export default function Experience() {
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Trained 4+ LLM models for code generation by developing prompts and solutions, achieving 95% completion rate</div>
+                                <div>Resolved 10+ UI issues on the client’s LLM validation platform, enhancing user experience and interface functionality, leading to a 30% decrease in user-reported issues and support tickets</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Evaluated code quality produced by LLM for correctness, performance, and helpfulness for 300+ tasks</div>
+                                <div>Developed an automated notification system to alert users during maintenance periods for the client’s LLM, resulting in a 90% reduction in user inquiries</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Ensured high code quality in code reviews for 10+ engineers, making sure submissions followed style guidelines</div>
+                                <div>Implemented a task duration monitoring system for 250+ human validators, enabling the client to identify under-performing validators, resulting in $5000+ saved in payments due to time discrepancies</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "NASA"? "":"hidden"}`}>
+                    <div className="flex flex-row poppins-custom">SWE Intern <div className="text-[#64ffda] pl-2">@ NASA</div></div>
+                    <div className="text-xs tracking-widest text-[#8892b0] pt-2"> August — December 2022</div>
+                    <div className="pt-6 text-[#8892b0] text-sm">
+                        <ul className="space-y-4 poppins-custom"> 
+                            <li className=" flex flex-row space-x-4">
+                                <div className="text-md text-[#64ffda]">▹</div> 
+                                <div>Achieved over 90% efficiency in identifying intersections in geospatial data from multiple satellites with varying resolutions by automating the process using Python, saving scientists 10+ minutes per analysis</div>
+                            </li>
+                            <li className=" flex flex-row space-x-4">
+                                <div className="text-md text-[#64ffda]">▹</div> 
+                                <div>Enhanced data accessibility for scientists by developing Python scripts to automate the merging and processing of satellite datasets, reducing data requests by 3x</div>
+                            </li>
+                            <li className=" flex flex-row space-x-4">
+                                <div className="text-md text-[#64ffda]">▹</div> 
+                                <div>Built a search system for a satellite database, reducing data retrieval time by 5+ minutes, achieving a user engagement rate of 80%, and enabling scientists to quickly access and analyze satellite imagery</div>
                             </li>
                         </ul>
                     </div>
@@ -90,28 +111,6 @@ export default function Experience() {
                 </div>
 
 
-                <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "NASA"? "":"hidden"}`}>
-                    <div className="flex flex-row poppins-custom">SWE Intern <div className="text-[#64ffda] pl-2">@ NASA</div></div>
-                    <div className="text-xs tracking-widest text-[#8892b0] pt-2"> August — December 2021</div>
-                    <div className="pt-6 text-[#8892b0] text-sm">
-                        <ul className="space-y-4 poppins-custom"> 
-                            <li className=" flex flex-row space-x-4">
-                                <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Built a Python program to identify intersections in geospatial data collected by 3 satellites with varying resolutions</div>
-                            </li>
-                            <li className=" flex flex-row space-x-4">
-                                <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Developed scripts to merge 2+ terabytes of intersected satellite data, facilitating ease of access for scientists</div>
-                            </li>
-                            <li className=" flex flex-row space-x-4">
-                                <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Optimized scripts to handle large data volumes through multithreading, achieving 80% decrease in processing time</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
                 <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "MITRE"? "":"hidden"}`}>
                     <div className="flex flex-row poppins-custom">SWE Intern <div className="text-[#64ffda] pl-2">@ MITRE</div></div>
                     <div className="text-xs tracking-widest text-[#8892b0] pt-2"> June — September 2021</div>
@@ -119,15 +118,15 @@ export default function Experience() {
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Created a microservice in Python for generating metadata for a data pipeline, enabling comprehensive data analysis</div>
+                                <div>Implemented an analytical system in Python to measure 3+ key metrics of a social media data pipeline, contributing to a 20% increase in hate speech detection accuracy</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Integrated 3+ NLP microservices into the pipeline while maintaining 90% efficiency through multithreading</div>
+                                <div>Integrated 4+ NLP microservices into the pipeline to improve hate speech discovery, while maintaining a time efficiency loss of under 10% through the utilization of multi-threading</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Optimized transfer of MongoDB data into a Neo4J database using indexing, improving query performance by 60%</div>
+                                <div>Developed data transfer software to facilitate the migration of document-based data into a graph database, enabling the community detection of 100,000+ social media users</div>
                             </li>
                         </ul>
                     </div>
