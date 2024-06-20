@@ -48,13 +48,13 @@ export default function Experience() {
                 </div>
 
                 <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "DataAnnotation"? "":"hidden"}`}>
-                    <div className="flex flex-row poppins-custom">SWE Intern <div className="text-[#64ffda] pl-2">@ DataAnnotation</div></div>
+                    <div className="flex flex-row poppins-custom">Software Engineer<div className="text-[#64ffda] pl-2">@ DataAnnotation</div></div>
                     <div className="text-xs tracking-widest text-[#8892b0] pt-2"> January 2024 — Present</div>
                     <div className="pt-6 text-[#8892b0] text-sm">
                         <ul className="space-y-4 poppins-custom"> 
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Resolved 10+ UI issues on the client’s LLM validation platform, enhancing user experience and interface functionality, leading to a 30% decrease in user-reported issues and support tickets</div>
+                                <div>Resolved 15+ UI issues on the client’s LLM validation platform, enhancing user experience and interface functionality, leading to a 30% decrease in user-reported issues and support tickets</div>
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
@@ -62,7 +62,7 @@ export default function Experience() {
                             </li>
                             <li className=" flex flex-row space-x-4">
                                 <div className="text-md text-[#64ffda]">▹</div> 
-                                <div>Implemented a task duration monitoring system for 250+ human validators, enabling the client to identify under-performing validators, resulting in $5000+ saved in payments due to time discrepancies</div>
+                                <div>Implemented a task duration monitoring system for 500+ human validators, enabling the client to identify under-performing validators, resulting in $5000+ saved in payments due to time discrepancies</div>
                             </li>
                         </ul>
                     </div>
