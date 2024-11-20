@@ -47,7 +47,7 @@ export default function Experience() {
                     </ol>
                 </div>
 
-                <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "DataAnnotation"? "":"hidden"}`}>
+                {/* <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "DataAnnotation"? "":"hidden"}`}>
                     <div className="flex flex-row poppins-custom">Software Engineer<div className="text-[#64ffda] pl-2">@ DataAnnotation</div></div>
                     <div className="text-xs tracking-widest text-[#8892b0] pt-2"> January 2024 — Present</div>
                     <div className="pt-6 text-[#8892b0] text-sm">
@@ -66,7 +66,7 @@ export default function Experience() {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
                 <div className={`pt-14 mt-1 text-lg text-[#bed2fc] md:pl-4 sm:pr-0 pr-6 ${company === "NASA"? "":"hidden"}`}>
                     <div className="flex flex-row poppins-custom">SWE Intern <div className="text-[#64ffda] pl-2">@ NASA</div></div>
