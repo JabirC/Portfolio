@@ -16,13 +16,13 @@ export default function Experience() {
             <div className="flex sm:flex-row flex-col ">
                 <div className="poppins-custom justify-center text-[#8892b0] text-xs font-normal tracking-widest pt-14">
                     <ol className="flex sm:flex-col flex-row  overflow-x-auto whitespace-no-wrap"> 
-                        <li>
+                        {/* <li>
                             <button onClick={()=>setCompany('DataAnnotation')} className="flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left w-36 h-10 hover:bg-[#112240] hover:text-[#64ffda]">
                                 <div className={`sm:w-0.5 sm:h-full  bg-[#1d2c45] ${company === "DataAnnotation"? "bg-[#64ffda]":""}`}> </div>
                                 <div className={`sm:pl-4 sm:pb-0 pt-2 sm:pt-0 ${company === "DataAnnotation"? "text-[#64ffda]":""}`}>DataAnnotaion</div>
                                 <div className={`sm:hidden w-full h-0.5  bg-[#1d2c45] mt-3 ${company === "DataAnnotation"? "bg-[#64ffda]":""}`}> </div>
                             </button>
-                        </li>
+                        </li> */}
                         <li>
                             <button onClick={()=>setCompany('NASA')} className="flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left md:w-36 w-24 h-10 hover:bg-[#112240] hover:text-[#64ffda]">
                                 <div className={`sm:w-0.5 sm:h-full  bg-[#1d2c45] ${company === "NASA"? "bg-[#64ffda]":""}`}> </div>
